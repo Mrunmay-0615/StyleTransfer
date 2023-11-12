@@ -102,4 +102,5 @@ Apart from the method mentioned above, I also tried solving the problem using th
 The drawback I saw with this approach was that for every pair of content and style image, you need to run the code separately. The style transfer won't be in real
 time. 
 
-I have still included some of the results obtained.
+I have still included some of the results obtained. They are in the directory ```Gatys```. The ```generated``` sub-directory contains all the generated
+images with content infused with style.
