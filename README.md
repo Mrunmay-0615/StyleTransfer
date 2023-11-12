@@ -83,7 +83,7 @@ I chose the following set of hyperparameters for training.
 * Batch size - 4
 * Lambda_identity - 5 (The relative weight of identity loss in the total loss)
 * Lambda_cycle - 10 (The relative weight of the cycle-consistency loss in the total loss)
-* Epochs - 100
+* Epochs - 50
 
 ### Evaluation
 
@@ -93,7 +93,7 @@ I have borrowed the implementation for SSIM score from [here](https://github.com
 To evaluate style transfer, I will use the discriminator's accuracy. If the style transfer is very good, the accuracy should be close to 50% as 
 the discriminator will find it difficult to classify whether the image is synthetic or an actual Vangogh artwork.
 
-I evaluated the model on a test set of around 2000 images. The following metrics were obtained.
+I evaluated the model on a test set of around 2000 images.
 
 
 ### Additional Experiments
