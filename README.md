@@ -8,7 +8,7 @@ However, for many tasks, paired training data will not be available. The authors
 
 ### Table of Contents
 
-- [Results](#result)
+- [Results](#results)
 - [Setup](#setup)
 - [Model Architecture](#model-architecture)
 - [Objective](#objective)
@@ -21,8 +21,16 @@ However, for many tasks, paired training data will not be available. The authors
 
 Here are some of the results obtained
 
-<img src="saved_images/0/real_photo.png">
-<img src="saved_images/0/fake_monet.png">
+<figure>
+    <img src="saved_images/400/real_photo.png">
+    <figcaption>Figure 1: Real photos</figcaption>
+</figure>
+
+
+<figure>
+    <img src="saved_images/400/fake_monet.png">
+    <figcaption>Figure 2: Fake Vangogh</figcaption>
+</figure>
 
 ### Setup
 
@@ -49,7 +57,7 @@ Here are some of the results obtained
  I have uploaded my trained models to the Google Drive [here](https://drive.google.com/drive/folders/1R-2Urv8Ev6cNQklT72CGytn6lX2Q0HyA?usp=sharing)
 
 
-### Model  Architecture
+### Model Architecture
 
 I decided to use CycleGAN [(Zhu et. al, 2017)](https://arxiv.org/pdf/1703.10593) for this task which is a novel method for unpaired image-to-image translation. One of the main reasons for choosing this method is that the algorithm doesn't require paired images.
 Now, my goal is to learn to convert photographs to look as though painted by some artist and imitate their artistic style. Let's say X is the set of photographs in consideration and
