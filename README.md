@@ -45,7 +45,7 @@ Here are some of the results obtained
    jupyter notebook
    ```
 
-My pretrained models are available [here]()
+ I have uploaded my trained models to the Google Drive [here](https://drive.google.com/drive/folders/1R-2Urv8Ev6cNQklT72CGytn6lX2Q0HyA?usp=sharing)
 
 
 ### Model  Architecture
@@ -94,6 +94,12 @@ To evaluate style transfer, I will use the discriminator's accuracy. If the styl
 the discriminator will find it difficult to classify whether the image is synthetic or an actual Vangogh artwork.
 
 I evaluated the model on a test set of around 2000 images.
+
+SSIM score: 0.822 (For content preservation)
+Discriminator accuracy: 65.31%
+
+I feel the content preservation is quite good which is apparent from the few results I shared above. However, the style transfer is decent and not that good.
+The discriminator is decently enough in identifying the fake vangogh and the real photos distinguishably. There is a lot of room for improvement
 
 
 ### Additional Experiments
