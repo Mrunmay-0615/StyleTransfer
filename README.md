@@ -21,7 +21,8 @@ However, for many tasks, paired training data will not be available. The authors
 
 Here are some of the results obtained
 
-
+<img src="saved_images/0/real_photo.png">
+<img src="saved_images/0/fake_monet.png">
 
 ### Setup
 
